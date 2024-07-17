@@ -1,0 +1,281 @@
+body {
+    font-family: "Lato", sans-serif;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* overflow-x: hidden;  */
+    background: url(style/back.png); 
+    /* border-width: blur(20%); */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* width: vw; */
+    height: 90vh;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;
+}
+
+
+.panel { 
+    /* -webkit-filter: blur(20px); */
+    margin: 55px 0 40px 0 ;
+    width: 100%;
+    height: 0;
+    
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    overflow: hidden;
+    overflow:scroll;
+    
+    transition: height 1s ease;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+/* #myPanel{
+    -webkit-filter: blur(20px);
+} */
+.panel::-webkit-scrollbar{
+    width: 7.5px;
+}	
+.panel::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(195, 0, 255);
+}
+
+.panel a {
+    margin: 0 1vw 0 1vw;
+    left: 1vw;
+    cursor: pointer;
+    background-color: #91919100;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #919191;
+    display: block;
+    transition: 0.8s;
+}
+
+.panel a:hover {
+    -webkit-filter: blur(1px);
+    color: #ffffff;
+}
+
+.panel .closebtn {
+    /* height: 100%; */
+    /* overflow: scroll; */
+    position: absolute;
+    top: 0;
+    /* right: 45vw;     */
+    font-size: 36px;
+}
+
+
+.panel1 {  
+    margin: -40px 0 0px 0 ;
+    width: 100%;
+    height: 0;
+    /* position: fixed; */
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    overflow: hidden;
+    overflow:scroll;
+    /* overflow: scroll; */
+    transition: height 1s ease;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in height */
+    /* padding: 10px 10px 10px 10px; */
+}
+.panel1::-webkit-scrollbar{
+    width: 7.5px;
+}	
+.panel1::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(195, 0, 255);
+}
+
+.panel1 a {
+    margin: 0 1vw 0 1vw;
+    left: 12vw;
+    cursor: pointer;
+    background-color: #91919100;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #919191;
+    display: block;
+    transition: 0.8s;
+}
+
+.panel1 a:hover {
+    -webkit-filter: blur(1px);
+    color: #ffffff;
+}
+
+.panel1 .closebtn1 {
+    /* height: 250vh; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    /* right: 45vw;     */
+    font-size: 36px;
+}
+.panel2 {  
+    
+    width: 100%;
+    height: 0;
+    /* position: fixed; */
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    overflow: hidden;
+    overflow:scroll;
+    /* overflow: scroll; */
+    transition: height 1s ease;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in height */
+    /* padding: 10px 10px 10px 10px; */
+}
+.panel2::-webkit-scrollbar{
+    width: 7.5px;
+}	
+.panel2::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(195, 0, 255);
+}
+
+.panel2 a {
+    margin: 0 1vw 0 1vw;
+    left: 26vw;
+    cursor: pointer;
+    background-color: #91919100;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #919191;
+    display: block;
+    transition: 0.8s;
+}
+
+.panel2 a:hover {
+    -webkit-filter: blur(1px);
+    color: #ffffff;
+}
+
+.panel2 .closebtn2 {
+    /* height: 250vh; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    /* right: 45vw;     */
+    font-size: 36px;
+}
+.panel3 {  
+    
+    width: 100%;
+    height: 0;
+    /* position: fixed; */
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    overflow: hidden;
+    overflow:scroll;
+    /* overflow: scroll; */
+    transition: height 1s ease;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in height */
+    /* padding: 10px 10px 10px 10px; */
+}
+.panel3::-webkit-scrollbar{
+    width: 7.5px;
+}	
+.panel3::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(195, 0, 255);
+}
+
+.panel3 a {
+    margin: 0 1vw 0 1vw;
+    left: 40vw;
+    cursor: pointer;
+    background-color: #91919100;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #919191;
+    display: block;
+    transition: 0.8s;
+}
+
+.panel3 a:hover {
+    -webkit-filter: blur(1px);
+    color: #ffffff;
+}
+
+.panel3 .closebtn3 {
+    /* height: 250vh; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    /* right: 45vw;     */
+    font-size: 36px;
+}
+.panel4 {  
+    
+    width: 100%;
+    height: 0;
+    /* position: fixed; */
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    background-color: #00000038;
+    overflow: hidden;
+    overflow:scroll;
+    /* overflow: scroll; */
+    transition: height 1s ease;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in height */
+    /* padding: 10px 10px 10px 10px; */
+}
+.panel4::-webkit-scrollbar{
+    width: 7.5px;
+}	
+.panel4::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgb(195, 0, 255);
+}
+
+.panel4 a {
+    margin: 0 1vw 0 1vw;
+    left: 62vw;
+    cursor: pointer;
+    background-color: #91919100;
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #919191;
+    display: block;
+    transition: 0.8s;
+}
+
+.panel4 a:hover {
+    -webkit-filter: blur(1px);
+    color: #ffffff;
+}
+
+
+.panel4 .closebtn4 {
+    /* -webkit-filter: blur(1px); */
+    /* height: 250vh; */
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    /* right: 45vw;     */
+    font-size: 36px;
+}
